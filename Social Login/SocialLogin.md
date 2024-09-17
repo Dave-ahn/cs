@@ -176,7 +176,7 @@ Logout Redirect URI는 HTTP/HTTPS 프로토콜 및 80, 443 포트를 지원하�
 4. Service Client -> Kakao Auth Server : 카카오 계정 로그인
 5. Kakao Auth Server : 사용자 인증 앱 설정 확인
 6. Kakao Auth Server -> Service Client : 동의 화면 출력
-7. Service Slient -> Kakao Auth Server : 동의하고 계속하기
+7. Service Client -> Kakao Auth Server : 동의하고 계속하기
 8. Kakao Auth Server -> Service Serve : 302 Redirect URI로 인가 코드 전달
 
 [토큰 받기] 9. Service Serve -> Kakao Auth Server : POST / oauth / token 10. Kakao Auth Server -> Service Serve : 토큰 발급
